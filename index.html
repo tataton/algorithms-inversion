@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Algorithms Programming Assignment #2: Merge Sort and Counting Inversions</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Counting Inversions Using Divide-and-Conquer</h1>
+    </header>
+    <main>
+      <section id="explanation">
+        <p>This page uses the <a href="https://en.wikipedia.org/wiki/Merge_sort">merge sort</a> method to count the number of inversions--pairs of numbers in which the earlier number is greater than the later one--in a list of numbers. This page imports the list from a local .txt file on the user's machine. In order to implement this, I've used the HTML5 FileReader API.</p>
+        <p>In order for this page to function correctly, the list of numbers must be a line-break (carriage return) delimited list in a text file.</p>
+      </section>
+      <section id="input-area">
+        <h2>Location of text file:</h2>
+        <input id="fileInput" type="file" accept=".txt">
+        <p id="inversionOutput">Number of inversions:</p>
+      </section>
+    </main>
+  </body>
+</html>
